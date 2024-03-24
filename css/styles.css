@@ -678,7 +678,6 @@ button {
 }
 .job-item {
 	cursor: help;
-	width: 390px;
 }
 @media only screen and (min-width: 768px) {
 	.jobs-list {
@@ -686,7 +685,6 @@ button {
 	}
 	.job-item {
 		cursor: help;
-		width: 356px;
 	}
 }
 @media only screen and (min-width: 1158px) {
@@ -695,7 +693,6 @@ button {
 	}
 	.job-item {
 		cursor: help;
-		width: 360px;
 	}
 }
 
