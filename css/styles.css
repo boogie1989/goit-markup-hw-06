@@ -420,12 +420,7 @@ button {
 
 .feature-item-title {
 	margin-bottom: 8px;
-	font-weight: 700;
-	font-size: 36px;
-	line-height: 1.2;
 	letter-spacing: 0.02em;
-	text-align: center;
-	color: var(--NAVY-BLUE);
 }
 @media only screen and (min-width: 768px) {
 	.feature-item-title {
@@ -439,9 +434,7 @@ button {
 	}
 }
 .feature-item-desc {
-	line-height: 1.5;
 	letter-spacing: 0.02em;
-	color: var(--SLATE);
 }
 /* #endregion Features */
 /* #region Tasks */
@@ -475,19 +468,13 @@ button {
 }
 .team-member-title {
 	margin-bottom: 8px;
-	font-weight: 500;
-	font-size: 20px;
-	line-height: 1.2;
 	letter-spacing: 0.02em;
 	text-align: center;
-	color: var(--NAVY-BLUE);
 }
 .team-member-position {
 	margin-bottom: 8px;
-	line-height: 1.5;
 	letter-spacing: 0.02em;
 	text-align: center;
-	color: var(--SLATE);
 }
 /* #endregion Team */
 /* #region Clients */
@@ -678,15 +665,10 @@ button {
 }
 .job-title {
 	margin-bottom: 8px;
-	font-size: 20px;
-	line-height: 1.2;
 	letter-spacing: 0.02em;
-	color: var(--NAVY-BLUE);
 }
 .job-desc {
-	line-height: 1.5;
 	letter-spacing: 0.02em;
-	color: var(--SLATE);
 }
 /* #endregion Portfolio */
 /* #region Overlay */
