@@ -103,6 +103,22 @@ button {
 	clip-path: inset(50%);
 	overflow: hidden;
 }
+
+.item-title {
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.4px;
+	color: var(--NAVY-BLUE);
+}
+
+.item-subtitle {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 0.32px;
+	color: var(--SLATE);
+}
+
 .section {
 	padding: 96px 0;
 }
@@ -164,6 +180,7 @@ button {
 	min-width: 165px;
 	min-height: 40px;
 	padding: 16px 32px;
+	font-family: var(--primary-font);
 	font-weight: 500;
 	line-height: 1.5;
 	letter-spacing: 0.04em;
@@ -183,6 +200,8 @@ button {
 /* HEADER */
 .header {
 	border-bottom: 1px solid var(--CLOUD);
+	box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+		0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .header .container {
 	display: flex;
@@ -380,6 +399,25 @@ button {
 		--items: 4;
 	}
 }
+
+.feature-logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 112px;
+	background-color: var(--CLOUD);
+	border-radius: 4px;
+	margin-bottom: 6px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.feature-item-logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .feature-item-title {
 	margin-bottom: 8px;
 	font-weight: 700;
@@ -403,6 +441,7 @@ button {
 .feature-item-desc {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
+	color: var(--SLATE);
 }
 /* #endregion Features */
 /* #region Tasks */
@@ -448,6 +487,7 @@ button {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	text-align: center;
+	color: var(--SLATE);
 }
 /* #endregion Team */
 /* #region Clients */
@@ -638,7 +678,6 @@ button {
 }
 .job-title {
 	margin-bottom: 8px;
-	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
@@ -647,6 +686,7 @@ button {
 .job-desc {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
+	color: var(--SLATE);
 }
 /* #endregion Portfolio */
 /* #region Overlay */
@@ -756,6 +796,11 @@ button {
 	width: 100%;
 	margin-bottom: 8px;
 }
+
+.feedback-field-comment {
+	margin-bottom: 16px;
+}
+
 .feedback-label {
 	display: block;
 	margin-bottom: 4px;
@@ -801,6 +846,7 @@ button {
 	outline-offset: -1px;
 	resize: none;
 	transition: outline var(--transition);
+	display: block;
 }
 .feedback-comment:focus {
 	outline-color: var(--IRIS);
@@ -812,7 +858,6 @@ button {
 	display: flex;
 	align-items: center;
 	gap: 8px;
-	margin-top: 16px;
 	margin-bottom: 24px;
 }
 .feedback-pp-checkbox {
