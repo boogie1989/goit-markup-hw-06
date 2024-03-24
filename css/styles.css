@@ -403,7 +403,6 @@ button {
 /* #endregion Hero */
 /* #region Features */
 .features {
-
 }
 .features-list {
 	--items: 1;
@@ -673,19 +672,33 @@ button {
 .portfolio-filters {
 	margin-bottom: 72px;
 }
+
+.jobs-list {
+	--items: 1;
+}
+.job-item {
+	cursor: help;
+	width: 390px;
+}
 @media only screen and (min-width: 768px) {
 	.jobs-list {
 		--items: 2;
+	}
+	.job-item {
+		cursor: help;
+		width: 356px;
 	}
 }
 @media only screen and (min-width: 1158px) {
 	.jobs-list {
 		--items: 3;
 	}
+	.job-item {
+		cursor: help;
+		width: 360px;
+	}
 }
-.job-item {
-	cursor: help;
-}
+
 .job-img {
 	width: 100%;
 	height: 100%;
